@@ -1,0 +1,30 @@
+{
+  "name": "Neo-Lify",
+  "version": "3.0.0",
+  "main": "index.js",
+  "_moduleAliases": {
+    "@root": ".",
+    "@config": "./config",
+    "@lib": "./lib",
+    "@utils": "./utils"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon index.js",
+    "reset": "rm -rf ./sessions && node index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "cryptzx-dev",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@cryptzx-dev/node-input": "^2.5.1",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "cfonts": "^3.3.0",
+    "jimp": "^0.16.13",
+    "link-preview-js": "^3.0.12",
+    "module-alias": "^2.2.3",
+    "moment-timezone": "^0.5.46",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
